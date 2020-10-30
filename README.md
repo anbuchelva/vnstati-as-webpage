@@ -1,4 +1,4 @@
-# vnstati
+# vnstati as webpage
 
 `vnstat` is a small tool to monitor and report network usage of a linux system. `vnstati` is a supportive tool for vnstat to generate the network statistics as png files.
 
@@ -22,7 +22,7 @@ go to `/etc/vnstat.conf` in your server and make sure the `Interface: ` is set t
 - clone the repo in by running
 
     ```
-    git clone https://github.com/anbuchelva/vnstati.git
+    git clone https://github.com/anbuchelva/vnstati-as-webpage.git vnstati
     ```
 
     in the same path. Make sure you are having root previliges.
@@ -32,7 +32,7 @@ sudo crontab -e` and add the following line at the end of the file `*/5 * * * * 
 
 There are two interfaces listed in the script and the html file, which can be modified based on your need.
 
-visit `http://localhost/vnstat` or `http://<server-ip>/vnstat` to view the page.  Sample screenshots are provided here.
+visit `http://localhost/vnstati` or `http://<server-ip>/vnstati` to view the page.  Sample screenshots are provided here.
 
 ## Screenshots
 ### pc browser:
