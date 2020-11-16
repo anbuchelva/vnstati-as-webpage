@@ -9,9 +9,18 @@ This repository contains [a small script](vnstati.sh) to generate `vnstati` imag
 make sure vnstat and vnstati are installed and configured.
 
 to install:
+_for ubuntu 20.04 and above_
 ```
 sudo apt install vnstat vnstati
 ```
+
+_for below ubuntu 20.04_
+```
+sudo add-apt-repository ppa:savoury1/vnstat
+sudo apt-get update
+sudo apt install vnstat vnstati
+```
+
 
 to configure:  
 go to `/etc/vnstat.conf` in your server and make sure the `Interface: ` is set to blank or updated with right name.
