@@ -42,6 +42,25 @@ sudo crontab -e` and add the following line at the end of the file `*/5 * * * * 
 There are two interfaces listed in the script and the html file, which can be modified based on your need.
 
 visit `http://localhost/vnstati` or `http://<server-ip>/vnstati` to view the page.  Sample screenshots are provided here.
+## Dark Mode
+
+If you wish to enable dark mode, copy the following code and replace it in `/etc/vnstat.conf`
+
+```
+# image colors
+CBackground     "2A2A2A"
+CEdge           "2A2A2A"
+CHeader         "474747"
+CHeaderTitle    "FFFFFF"
+CHeaderDate     "FFFFFF"
+CText           "FFFFFF"
+CLine           "B0B0B0"
+CLineL          "B0B0B0"
+CRx             "336b87"
+CTx             "90afc5"
+CRxD            "336b87"
+CTxD            "90afc5"
+```
 
 ## Screenshots
 ### pc browser:
